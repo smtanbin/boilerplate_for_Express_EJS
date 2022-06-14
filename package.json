@@ -1,0 +1,40 @@
+{
+  "name": "ejs_bilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate of express.js, ejs application to a bundle with webpack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "dev": "webpack --config build/webpack.dev.conf.js"
+  },
+
+  "keywords": [
+    "node.js",
+    "webpack",
+    "expressjs",
+    "javascript"
+  ],
+  "author": "Tanbin Hassan.",
+  "license": "MIT",
+
+  	"dependencies": {
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"crypto-js": "^4.1.1",
+		"dotenv": "^16.0.0",
+		"js-cookie": "^3.0.1",
+		"jsonwebtoken": "^8.5.1",
+		"jwt-decode": "^3.1.2",
+		"lru-cache": "^7.8.1",
+		"node-fetch": "^3.2.4",
+		"oracledb": "^5.3.0"
+	},
+  "devDependencies": {
+    "ejs": "^3.1.8",
+"express": "^4.17.3",
+		"nodemon": "^2.0.15",
+		"webpack": "5.69.1",
+		"webpack-cli": "4.9.2"
+  }
+}
